@@ -1,0 +1,64 @@
+\begin{frame}{Code demo}
+
+\begin{block}{test}
+
+:::::::::::::: \{.columns\} ::: \{.column width=``40\%''\} TeX Live is
+an easy way to get up and running with the TeX document production
+system. It provides a comprehensive TeX system with binaries for most
+flavors of Unix, including GNU/Linux, and also Windows. It includes all
+the major TeX-related programs, macro packages, and fonts that are free
+software, including support for many languages around the world. :::
+
+::: \{.column width=``60\%''\} TeX Live is an easy way to get up and
+running with the TeX document production system. It provides a
+comprehensive TeX system with binaries for most flavors of Unix,
+including GNU/Linux, and also Windows. It includes all the major
+TeX-related programs, macro packages, and fonts that are free software,
+including support for many languages around the world. :::
+::::::::::::::
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}[fragile]{Here's some code:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{int} \NormalTok{main() \{}
+  \ControlFlowTok{for}\NormalTok{(i=}\DecValTok{0}\NormalTok{;i<}\DecValTok{34}\NormalTok{;i++)\{}
+   \NormalTok{printf(}\StringTok{"Hello World!"}\NormalTok{);}
+  \NormalTok{\}}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\end{frame}
+
+\begin{frame}{another}
+
+\begin{block}{Gradual lists}
+
+\begin{itemize}
+\tightlist
+\item
+  First Element
+\item
+  Second Element
+\end{itemize}
+
+\end{block}
+
+\begin{block}{Breakfast}
+
+\begin{itemize}[<+->]
+\tightlist
+\item
+  First Element
+\item
+  Second Element
+\end{itemize}
+
+\end{block}
+
+\end{frame}

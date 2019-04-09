@@ -1,0 +1,66 @@
+body {
+}
+#container {
+  width: 100%;
+}
+
+#left,
+#right {
+  float: left;
+  width: 50%;
+
+  box-sizing: border-box;
+}
+
+#left {
+	padding-right:10px;
+	
+}
+
+textarea {
+     width: 100%;
+     margin-bottom: 10px;
+     height: 94%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+     border: 1px solid #9f9f9f;
+}
+
+#submit {
+  padding: 10px 10px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #9f9f9f;
+  /*box-shadow: 2px 4px 2px;*/
+}
+
+#submit:hover {
+  padding: 10px 10px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+  /*box-shadow: 2px 4px 2px;*/
+}
+
+#submit:active {
+  padding: 10px 10px;
+  margin-right: 10px;
+  background-color: #cccccc;
+  border: 1px solid #000000;
+  /*box-shadow: 2px 4px 2px;*/
+}
+
+
+@media screen and (max-width: 1024px) {
+    #right {
+        display: none !important;
+    }
+    #left {
+	width :100%;
+	}
+    #submit[name=submit] {
+       /*display: none !important;*/
+    }
+}
+
